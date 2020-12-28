@@ -1,0 +1,254 @@
+*, ::after, ::before {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: 'Anton';
+  src: url('../fonts/Anton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PressStart2';
+  src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+.head_caption
+{font-family: 'Anton' , sans-serif; }
+
+.head_description {
+  font-size:1.3vw;color: white; 
+font-family: 'PressStart2' , sans-serif;
+}
+
+.but1 a:hover {
+	background-color: #3d26ff;
+	border: 1px  solid #3d26ff;
+}
+
+.navbar-brand:hover {
+	color:white;
+
+}
+
+.navbar{
+	  border-bottom: 1px solid black;
+}
+
+.nav-link , .navbar-brand{
+	color: #ff5500;
+	cursor: pointer;
+
+}
+
+.nav-link{
+	margin-right: 1em !important;
+  font-weight: 600;
+}
+
+.nav-link:hover{
+	background: white;
+	color: #ff5500;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+.navbar-toggler{
+	background:#fff !important;
+}
+
+/*.bg-dark{
+	background-color:#343a40!important
+}
+.bg-primary{
+	background-color:#343a40!important
+}*/
+
+.dropdown-item:hover {
+  background: #1836f5;
+  color: 	#f4f4f4;
+}
+
+.img_header {
+  filter:brightness(30%);
+}
+
+#header {
+  position: relative;
+}
+
+#bannertext {
+  position:absolute; 
+  top:10%; 
+  width:100%; 
+  text-align:center; 
+  color:white;  
+}
+ 
+.resp_menu_btn_line {
+	display: block;
+	height: 3px;
+	width: 20px;
+	margin-bottom: 3px;
+	background: #000;
+}
+
+.resp_menu_btn_line:last-child {
+	margin-bottom: 0px;
+}
+
+div .carousel-caption {
+  position: absolute; top:30%;
+}
+
+.desc {
+  font-size: 1.2rem;
+}
+
+
+.ficha {margin-top: 100px;}
+
+
+
+#garbage_tag{
+  font-size:105%;
+
+  position:  fixed;
+  display: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 100;
+}
+
+#garbage_tag:target {
+  display: block;
+}
+
+
+#garbage_tag_1{
+  position:  fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 100;
+}
+
+
+.mt-xl-5 {
+  margin-right: auto;
+  width: 500px;
+  display: inline-block;
+  background: url('../images/metal-2069115_1920.jpg');
+  background-size: cover;
+  color:black;
+}
+
+#services {
+  background-color:  #e3dcdc;
+  text-align: center;   margin: 1em 0 0.5em 0;
+  color: black;
+  font-weight: bold;
+  font-family: 'Ultra', sans-serif;  
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 3px white, 0 4px #777;  
+}
+
+.modalDialog   {
+  height: 200px;
+  color: white;    
+  width: 400px;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  border:3px solid gray;
+  background: #fff;
+  background: -moz-linear-gradient(#5d02b8, #712ab8);
+  background: -webkit-linear-gradient(#5d02b8, #712ab8);
+  background: -o-linear-gradient(#5d02b8, #712ab8);
+}
+
+.scrollup {
+background: url(../images/icons/iconfinder_Rounded-01_2024671.png)no-repeat center center;
+  z-index: 1000;
+  position:fixed;
+  bottom:30px;
+  right: 60px; 
+  width: 40px;
+  height: 40px;
+}
+
+.scrollup:hover {
+  cursor:pointer;
+}
+
+#successMessage   {
+  text-align: center;
+  margin: 20% auto;
+  width: 50%
+}
+
+
+
+.card-title {
+  line-height: 2rem;
+  background-color: #007bff; 
+  color: black;
+}
+
+.footer {
+  width: 100%;
+  margin-left:0px;
+  margin-right:0px;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+  background-color: #000;
+  background-image: linear-gradient(to bottom right,black,lightgrey 200% ); 
+}
+
+.social_panel{
+  display: flex;
+}
+
+.copyright {
+  color: white;
+  text-align:right;
+  font-size: 16px;
+  margin-top:-40px;
+  font-weight: 300;
+}
+
+.description {
+  margin-bottom: 10px;
+  font-size:  18px;
+  color: white;
+  }
+
+.pic{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.icons {
+  margin-left: 10px;
+  width: 2rem;
+  height:2rem;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+.icons:hover {
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
+  -moz-filter: brightness(40%);
+}
